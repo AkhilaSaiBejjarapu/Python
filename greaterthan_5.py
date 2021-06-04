@@ -1,0 +1,8 @@
+a=input()
+num1=int(a)
+b=input()
+num2=int(b)
+con1=(num1>0 and num2>0)
+con2=(num1>5 or num2>5)
+result=(con1 and con2)
+print(result)
